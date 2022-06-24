@@ -4,7 +4,7 @@ Dns program, which sends queries to DNS servers and lists received responses to 
 
 The program recognizes type A, AAAA, CNAME, NS, PTR, SOA, WKS, MX, TXT, SRV, and ANY records in responses and is able to fully deal with type A, AAAA, CNAME, PTR, NS, and SOA records. I was unable to catch other types of responses (than those fully supported) during testing. If any can be captured later, the data is treated with the string "Not supported type". Other unsupported existing types are treated with the string "UNKNOWN".
 
-## Run
+## Installation
 - For compilation use `make`.
 - The order of parameters is arbitrary.
 - Parameters in square brackets are optional.
